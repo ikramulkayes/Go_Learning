@@ -1,0 +1,14 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+	var n complex64 = 1 + 2i
+	fmt.Printf("%v \n", n)
+
+	var s string = "Oh NO"
+	fmt.Printf("%v \n", s) 
+	fmt.Printf("%v", string(s[1])) //when you concatenate you need to implement it like this 
+}
