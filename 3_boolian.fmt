@@ -1,0 +1,19 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import (
+	"fmt"
+)
+
+var (
+	n bool = true
+)
+
+func main() {
+	k := 1 == 1 //you can not use it inside the var
+	fmt.Println(k)
+	fmt.Println(n)
+	var gg bool  // when we initialize a variable by default it is 0
+	fmt.Printf("%v", gg)
+}
