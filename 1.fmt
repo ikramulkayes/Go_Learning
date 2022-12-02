@@ -1,0 +1,21 @@
+// You can edit this code!
+// Click here and start typing.
+// Just some variable initializing and print formating
+package main
+
+import "fmt" // printing import
+
+var (
+	favgame string = "spiderman"
+	favlang string = "python"
+)
+
+func main() {
+	var baby int
+	baby = 12
+	var mouly int = 10 //if you declare a variable you need to use it must
+	fmt.Println("Hello, 世界")
+	fmt.Println(baby)
+	fmt.Println(mouly)
+	fmt.Printf("%v is %v and favourite game is %v. My is language is %v", baby, mouly, favgame, favlang) //this is close to Cpp
+}
