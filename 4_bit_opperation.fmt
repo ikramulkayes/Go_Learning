@@ -1,0 +1,20 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import (
+	"fmt"
+)
+
+var (
+	
+)
+
+func main() {
+	a := 10 //1010
+	b := 3 /0011
+	fmt.Println(a&b)//0010  it is and gate
+	fmt.Println(a|b)//1011 it is or gate
+	fmt.Println(a^b) //1001 it is xor gate
+	fmt.Println(a&^b)// 0100 it is nor gate
+}
