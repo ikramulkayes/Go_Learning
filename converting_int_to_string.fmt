@@ -1,0 +1,20 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import (
+	"fmt"
+	"strconv"
+)
+
+var (
+	favgame string = "spiderman"
+	favlang string = "python"
+)
+
+func main() {
+	var i int = 42
+	var j string
+	j = strconv.Itoa(i)  //converting int to string
+	fmt.Printf(j)
+}
