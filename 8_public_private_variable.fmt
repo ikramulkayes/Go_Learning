@@ -1,0 +1,18 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+var g int = 9
+
+func new() {
+	fmt.Println(g)
+}
+
+func main() {
+	var g int = 8 // as we have initialized it the main function is accessing the local variable
+	new()  //so the new function is accessing the package level variable
+	fmt.Println(g) 
+
+}
