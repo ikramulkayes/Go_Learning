@@ -1,0 +1,19 @@
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func calc(x int, y int) (int, int) {
+	var final1 int = x + y
+	var final2 int = x * y
+	return final1, final2
+}
+
+func main() {
+	num1 := 2
+	num2 := 3
+	gg1, gg2 := calc(num1, num2)
+
+	fmt.Println(gg1, gg2)
+}
